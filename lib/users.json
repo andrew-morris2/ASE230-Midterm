@@ -1,0 +1,19 @@
+{
+    "users": [
+        {
+            "username": "user1",
+            "password": "password123",
+            "type": "standard"
+        },
+        {
+            "username": "user2",
+            "password": "mysecurepassword",
+            "type": "standard"
+        },
+        {
+            "username": "admin",
+            "password": "adminpassword",
+            "type": "admin"
+        }
+    ]
+}
