@@ -22,14 +22,14 @@
                         exit();
                     }
                 } else{
-                    $error = "Invalid password";
+                    $error = "Invalid username or password";
                 }
                 $user_found = true;
                 break;
             }
         }
         if (!$user_found){
-            header("Location: signin.php?error=" . urlencode("Username or password incorrect."));
+            header("Location: signin.php"); //if username or password is incorrect, keep them at logon screen
             exit();
         }
 
