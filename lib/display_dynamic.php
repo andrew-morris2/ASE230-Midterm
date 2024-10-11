@@ -1,5 +1,4 @@
 <?php
-session_start();
 function displayClothingImages($jsonFile) {
     $data = file_get_contents($jsonFile);
     $clothingItems = json_decode($data, true);
