@@ -28,8 +28,10 @@
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#!">All Products</a></li>
                                 <li><hr class="dropdown-divider" /></li>
-                                <li><a class="dropdown-item" href="#!">Popular Items</a></li>
-                                <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
+                                <li><a class="dropdown-item" href="#!">Hats</a></li>
+                                <li><a class="dropdown-item" href="#!">Shirts</a></li>
+                                <li><a class="dropdown-item" href="#!">Pants</a></li>
+                                <li><a class="dropdown-item" href="#!">Shoes</a></li>
                             </ul>
                         </li>  
                     </ul>
