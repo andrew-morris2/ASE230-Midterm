@@ -10,7 +10,7 @@ function displayClothingImages($jsonFile) {
             <div class="col mb-5">
                 <div class="card h-100">
                     <!-- Product image-->
-                    <img class="card-img-top" src="' . htmlspecialchars($item['image']) . '" alt="..." />
+                    <img class="card-img-top" src="' . htmlspecialchars($item['image']) . '" alt="..." style="height: 250px;"/>
                     <!-- Product details-->
                     <div class="card-body p-4">
                         <div class="text-center">

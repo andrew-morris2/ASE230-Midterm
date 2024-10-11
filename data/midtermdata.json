@@ -1,25 +1,9 @@
 [
     {
-        "ID": "CLO001",
-        "name": "Baseball Cap",
-        "description": "A sporty cap perfect for outdoor activities.",
-        "price": 25.989999999999998436805981327779591083526611328125,
-        "type": "Hat",
-        "image": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/5\/58\/Basecap_New_York_Yankees.jpg"
-    },
-    {
-        "ID": "CLO002",
-        "name": "Leather Jacket",
-        "description": "Stylish and warm, ideal for evening outings.",
-        "price": "120.5",
-        "type": "Jacket",
-        "image": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/b\/b8\/Leather_Jacket_%2851011162080%29.jpg"
-    },
-    {
         "ID": "CLO003",
         "name": "Running Shoes",
         "description": "Comfortable shoes for long-distance running.",
-        "price": 80,
+        "price": "80",
         "type": "Shoes",
         "image": "https:\/\/i0.pickpik.com\/photos\/589\/84\/958\/running-shoe-shoe-asics-highly-functional-preview.jpg"
     },
@@ -219,7 +203,7 @@
         "ID": "CLO028",
         "name": "Peacoat",
         "description": "A warm and stylish coat, perfect for winter outings.",
-        "price": 145,
+        "price": "145",
         "type": "Jacket",
         "image": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/a\/af\/Coat_MET_C.I.38.23.36_F2.jpg"
     },
@@ -230,13 +214,5 @@
         "price": 35,
         "type": "Pants",
         "image": "https:\/\/cdn.printerval.com\/unsafe\/960x960\/asset\/11561d0c0b010b0c190c111b561b1715574b40494e4048404b570a571114574b194b1c1c41574d484e4f4c414c4a4d4f571114271e0d1414001e0d1414564d484e4f4c414c4a4d4f274c081d0c5612081f"
-    },
-    {
-        "ID": "CLO030",
-        "name": "Button-Up Shirt",
-        "description": "A classic, formal shirt that never goes out of style.",
-        "price": 40,
-        "type": "Shirt",
-        "image": "https:\/\/images.pexels.com\/photos\/10952733\/pexels-photo-10952733.jpeg"
     }
 ]

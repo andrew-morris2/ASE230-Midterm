@@ -12,6 +12,8 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="../css/styles.css" rel="stylesheet" />
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
     <!-- Navigation -->
@@ -43,33 +45,48 @@
             </div>
         </div>
     </nav>
-    <br><br><br><br><br><br>
-    <div class="login-container " style="text-align: center;">
-        <h2>Login</h2>
-        <form action="login.php" method="POST">
-            <div class="form-group">
-                <label for="username">Username</label>
-                <input type="text" id="username" name="username" required>
+
+    <!-- Login Section -->
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="col-md-6">
+            <h2 class="text-center mb-4">Login</h2>
+            <form action="login.php" method="POST" class="p-4 border rounded shadow">
+                <div class="mb-3">
+                    <label for="username" class="form-label">Username</label>
+                    <input type="text" id="username" name="username" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" id="password" name="password" class="form-control" required>
+                </div>
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </div>
+            </form>
+
+            <!-- Register link -->
+            <div class="text-center mt-3">
+                <p>Don't have an account? <a href="register.html">Register here</a></p>
             </div>
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" required>
-            </div>
-            <br><button type="submit">Login</button>
-        </form>
-        <div class="register-link">
-            <p>Don't have an account? <a href="register.html">Register here</a></p>
+
+            <!-- Error message -->
+            <?php
+            // Display error message if there's any
+            if (isset($_GET['error'])) {
+                echo '<div class="alert alert-danger text-center mt-3">' . htmlspecialchars($_GET['error']) . '</div>';
+            }
+            ?>
         </div>
-        <?php
-        // Check if there's an error passed from login.php and display it on the page
-        if (isset($_GET['error'])) {
-            echo '<p class="error">' . htmlspecialchars($_GET['error']) . '</p>';
-        }
-        ?>
     </div>
-</body>
-</html> 
 
-<?php
+    <!-- Footer -->
+    <footer class="py-5 bg-dark text-white">
+        <div class="container text-center">
+            <p class="m-0">&copy; Vogue Vault 2023</p>
+        </div>
+    </footer>
 
-?>
+    <!-- Bootstrap core JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
