@@ -66,7 +66,7 @@
 
             <!-- Register link -->
             <div class="text-center mt-3">
-                <p>Don't have an account? <a href="register.html">Register here</a></p>
+                <p>Don't have an account? <a href="../signup.php">Register here</a></p>
             </div>
 
             <!-- Error message -->
