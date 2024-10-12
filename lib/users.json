@@ -19,6 +19,11 @@
             "username": "turnere13",
             "password": "ase230",
             "type": "standard"
+        },
+        {
+            "username": "andrew",
+            "password": "ase230",
+            "type": "standard"
         }
     ]
 }

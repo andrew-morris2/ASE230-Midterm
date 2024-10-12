@@ -27,7 +27,7 @@
         "ID": "CLO006",
         "name": "Wool Beanie",
         "description": "Keeps you warm during the cold winter days.",
-        "price": 18.5,
+        "price": "18.50",
         "type": "Hat",
         "image": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/4a\/Beanie_-_Knit_Cap_%2851013511676%29.jpg"
     },
@@ -214,5 +214,12 @@
         "price": 35,
         "type": "Pants",
         "image": "https:\/\/cdn.printerval.com\/unsafe\/960x960\/asset\/11561d0c0b010b0c190c111b561b1715574b40494e4048404b570a571114574b194b1c1c41574d484e4f4c414c4a4d4f571114271e0d1414001e0d1414564d484e4f4c414c4a4d4f274c081d0c5612081f"
+    },
+    {
+        "ID": "6709c67eec253",
+        "name": "Random shoes",
+        "price": "69.00",
+        "description": "A random pair of shoes to wear on Sunday probably",
+        "image": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcSzmzy1mM7klMf8riSuKlvOIorJ-_d1GXXDbQ&amp;s"
     }
 ]

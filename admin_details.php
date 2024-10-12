@@ -110,7 +110,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <input type="text" id="image" name="image" class="form-control" value="<?= htmlspecialchars($itemDetails['image']) ?>">
             </div>
             <button type="submit" class="btn btn-primary">Update</button>
-        </form>
+        </form><br>
         <form action="" method="POST" onsubmit="return confirm('Are you sure you want to delete this item?');">
             <button type="submit" name="delete" class="btn btn-danger">Delete Item</button>
         </form>
