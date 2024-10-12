@@ -28,7 +28,7 @@ function displayClothingImages($jsonFile) {
                 </div> <!-- End of card -->
             </div> <!-- End of col -->';
         }
-        if (isset($item['image']) && $i < 8 && $_SESSION['type'] === 'standard'){
+        if (isset($item['image']) && $i < 30 && $_SESSION['type'] === 'standard'){
             echo '
             <div class="col mb-5">
                 <div class="card h-100">
